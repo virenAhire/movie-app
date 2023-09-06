@@ -67,7 +67,9 @@ const SearchResult = () => {
                             </InfiniteScroll>
                         </>
                     ) : (
-                        <></>
+                        <>
+                            <div>No results found.</div>
+                        </>
                     )}
                 </ContentWrapper>
             )}
